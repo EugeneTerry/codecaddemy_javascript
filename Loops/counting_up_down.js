@@ -10,3 +10,13 @@ for (let countUp = 5; countUp <11; countUp ++) {
 9
 10
 */
+
+for (let countDown = 3; countDown >= 0; countDown--){
+  console.log(countDown);
+}
+/* this prints
+3
+2
+1
+0
+*/
