@@ -9,3 +9,14 @@ console.log(groceryList);
   'coconut oil',
   'plantains' ]"
   */
+groceryList.unshift('popcorn'); // adds 'popcorn' to the front of the array
+console.log(groceryList);
+/* prints
+[ 'popcorn',
+  'bananas',
+  'coffee beans',
+  'brown rice',
+  'pasta',
+  'coconut oil',
+  'plantains' ]
+  */
