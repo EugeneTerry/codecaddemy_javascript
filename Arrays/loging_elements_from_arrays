@@ -1,0 +1,6 @@
+// this is the array
+const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious thing.', 'Where there is love there is life.'];
+let listItem = famousSayings [0];
+console.log(listItem) //prints "Fortune favors the brave."
+console.log(famousSayings[2]) // prints "Where there is love there is" life.
+console.log(famousSayings[3]) // prints "undefined" 
