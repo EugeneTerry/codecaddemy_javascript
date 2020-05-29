@@ -15,3 +15,11 @@ const smallNumbers = randomNumbers.filter(number => {
   return number < 250; //this filter out every number that was bigger than 250
 })
  console.log(smallNumbers); // this displayed [200, 3.14, 7, 13]
+
+//this is my attempt
+const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
+
+const longFavoriteWords = favoriteWords.filter(word => {
+  return word.length > 7; // this filters out all of the words with less than 7 letters in them
+})
+console.log(longFavoriteWords); //this should display ["nostalgia", "hyperbole", "esoteric"]
