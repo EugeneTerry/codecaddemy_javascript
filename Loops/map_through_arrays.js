@@ -8,4 +8,4 @@ console.log(squareNumbers);
 
 /* this will display
 [ 1, 4, 9, 16, 25 ]
-/*
+*/
