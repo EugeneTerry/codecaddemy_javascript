@@ -7,4 +7,4 @@ let spaceship = {
 
 spaceship.color = 'glorious gold'; //changing the color property
 spaceship.numEngines = 8; //adding a property to the spaceship
-delete spaceship['Secret Mission']; //deleting a property from the spaceship
+delete spaceship['Secret Mission']; //deleting a property from the spaceship I had to use [] because the property was a string
