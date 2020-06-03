@@ -7,7 +7,7 @@ let greenEnergy = obj => {
   obj['Fuel Type'] = 'avocado oil' //this changes tje fuel type to avocado oil
 };
 let remotelyDisable = obj => {
-  obj.disabled = true this adds to the spaceship a disable item with the property of "true"
+  obj.disabled = true //this adds to the spaceship a disable item with the property of "true"
   }
 greenEnergy(spaceship)
 remotelyDisable(spaceship)
