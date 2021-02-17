@@ -17,4 +17,4 @@ function areaCal1(base, height) {
    }
   return mesurementsTri(base, height) * 0.5;
 };
-console.log(areaCal1(-8, 9));
+console.log(`The area of your triangle is ${areaCal1(8.3, 9)} square units.`);
