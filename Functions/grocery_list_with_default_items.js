@@ -9,3 +9,9 @@ Remember to buy milk
 Remember to buy bread
 Remember to buy eggs
 */
+function listOfToys(toy1 = "GIJOE", toy2 = "Transformers", toy3 = "Cabbaage Patch"){
+  console.log(`pick up your ${toy1}`);
+  console.log(`pick up your ${toy2}`);
+  console.log(`pick up your ${toy3}`);
+}
+listOfToys()
