@@ -9,3 +9,6 @@ const removed = krogerList.pop(); //assigns a variable with the removed item fro
 console.log(krogerList);
 console.log(krogerList.length);
 console.log(`${removed} was removed from the array`);
+krogerList.unshift('fries');
+console.log(krogerList);
+console.log(`${krogerList [0]} was added to the beginning of the array`);
