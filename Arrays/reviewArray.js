@@ -1,5 +1,5 @@
 const krogerList = ['hotdogs', 'buns', 'ketsup', 'mustard'];
-krogerList [3] = 'mayo';
+krogerList [3] = 'mayo'; // this replaced item [3] 'mustard' to 'mayo'
 console.log(krogerList);
 console.log(krogerList.length);
 krogerList.push('pickles', 'chili'); //adds pickles and chili onto the end
