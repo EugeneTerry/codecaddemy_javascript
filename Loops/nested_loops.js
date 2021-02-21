@@ -13,3 +13,20 @@ for (let i = 0; i < bobsFollowers.length; i++) { // this goes through each item 
     }
   }
 };
+
+const liquorList = ['Jack', 'Titos', 'Jose', 'Crown', 'Dos XX'];
+const herLiquorList = ['Dos XX', 'Rose', 'Henessee', 'Chris', 'Crown'];
+const mustHaveLiquor = []
+console.log(`My List From Last to First`);
+console.log(liquorList)
+console.log(herLiquorList)
+
+for (let i = 0; i < liquorList.length; i++) {
+    for (let j = 0; j < herLiquorList.length; j++) {
+      if (liquorList[i] === herLiquorList[j]) {
+        mustHaveLiquor.push(liquorList[i]);
+        console.log(`Both lists have ${liquorList[j]} in them`)
+      }
+    }
+  };
+  console.log(mustHaveLiquor);
