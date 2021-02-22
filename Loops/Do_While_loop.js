@@ -9,3 +9,18 @@ do {
 } while (i <= cupsOfSugarNeeded); 
 console.log(cupsAdded)
 // since the cupsOfSugarNeeded = 6 it will print "21"
+
+
+const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
+ let i = 0;
+// Write your code below
+do {
+  console.log(rapperArray[i]); "
+  i++;
+  /* this will print out
+  Lil' Kim
+  Jay-Z
+  Notorious B.I.G.
+  Tupac*/
+}
+while (i <= rapperArray.length-1); //the primt out will stop when the last item "item[4]" is touched.
