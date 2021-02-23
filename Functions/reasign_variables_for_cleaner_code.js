@@ -11,3 +11,12 @@ const is2p2 = checkThatTwoPlusTwoEqualsFourAMillionTimes; //this makes the code 
 is2p2 ()
 console.log(is2p2.name) //use this to find out the original variable name
 // prints "checkThatTwoPlusTwoEqualsFourAMillionTimes"
+
+// below is the scond go around for assigning fuctions to a variable
+const ithoughtthatwehadathinggoingon = () => {
+            return(`Why did you dump me?`);
+        }
+
+let breakUp = ithoughtthatwehadathinggoingon;
+ console.log(breakUp());
+ console.log(breakUp.name);
