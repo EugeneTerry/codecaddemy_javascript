@@ -29,5 +29,5 @@ const makeArrayWith = words.filter(words => { // this makes an array that has th
 console.log(makeArrayWith); // ["unique", "uncanny", "oxymoron"]
 
 console.log(family.every((members) => {
-    return members.length > 3;
+    return members.length > 1;
 }));
