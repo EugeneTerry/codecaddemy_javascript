@@ -1,7 +1,7 @@
 const animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
 
 const foundAnimal = animals.findIndex(animal => {
-  return animal === 'elephant'; // this looks for the word "elephant" in the array
+  return animal === 'elephant'; // this looks for the word "elephant" in the array. 
 })
 console.log(foundAnimal) // this displays "7" because the word "elephant" is the item07 in the array
 console.log(animals[foundAnimal])
