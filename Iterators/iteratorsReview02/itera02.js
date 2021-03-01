@@ -1,7 +1,7 @@
 console.log(`/////////////////THIS IS CODE FROM itera02.js///////////////`)
 //const family = ['Trinity', 'Remle', 'Gabrielle', 'Des'];
 const foundLetterT = family.findIndex(family => {
-    return family[0] === 'G'; // this finds what item location has the letter 'G'  in the first spot [0].
+    return family[1] === 'r'; // this finds what item location has the letter 'G'  in the first spot [0].
 });
 console.log(foundLetterT);
 
@@ -12,7 +12,6 @@ console.log(foundMoe);
 
 const words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
 
-// Something is missing in the method call below
 
 const lessThanSixTrue = words.some(words => { //this one gives a true or false outcome for a given parameters
     return words.length < 6;
