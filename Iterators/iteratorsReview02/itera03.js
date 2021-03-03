@@ -8,3 +8,9 @@ console.log(`The average of ${classSize.join(', ')} is ${sumClasses/classSize.le
 console.log(family.every((kid) => { // this is seeing if everything is the same in the array
     return kid.length > 5; // this says what the same is
 }));
+
+const cities = ['Orlando', 'Dubai', 'Edinburgh', 'Chennai', 'Accra', 'Denver', 'Eskisehir', 'Medellin', 'Yokohama'];
+const firstLetter = cities.map(city => {
+    return city[0];
+  },);
+  console.log(`C${firstLetter.join('')}`) // prints CODEACADEMY
