@@ -24,8 +24,8 @@ let redBark = {
         }
     };
 for (let houseOwer in redBark.owners) { // this for...in loop creates a temp variable that gose through each property 
-    console.log(`${houseOwer}: ${redBark.owners[houseOwer].name}`); 
+    console.log(`${houseOwer}: ${redBark.owners[houseOwer].name}`); // prints "wife: Teresa" "husband: Eugene"
 }
 
 for (let houseOwer in redBark.owners) { // this for...in loop creates a temp variable that gose through each property 
-    console.log(`${redBark.owners[houseOwer].name}: ${redBark.owners[houseOwer].degree}`); }
+    console.log(`${redBark.owners[houseOwer].name}: ${redBark.owners[houseOwer].degree}`); } //prints ou "Teresa: Ed.D" "Eugene: M.Ed"
