@@ -28,6 +28,7 @@ console.log(`//////////////Getters///////////////`)
 const terryFam = {
     _firstName: 'Dess',
     _lastName: 'Terry',
+
     /*get fullName () {
         if (this._firstName && this._lastName){
         return `${this._firstName} ${this._lastName}`;
@@ -46,4 +47,21 @@ const terryFam = {
     console.log(terryFam.lastNameCheck);// prints the full name depending on the propery type.
 
     console.log(`//////////////Setters///////////////`)
+
+const terryAthlete = {
+    _athleteName: 'Gabrielle',
+    _jerseyNumber: '16',
+    set jerseyNumber(newNumber){ // this allows me to reasign a property name but only with another number
+        if (typeof newNumber === 'number'){
+            this._jerseyNumber = newNumber;
+        } else {
+            console.log('you must put a number in  for her jersey');
+        }
+    }
+
+}
+ terryAthlete._jerseyNumber = 'twelve';
+ console.log(terryAthlete._jerseyNumber);
+ //terryAthlete.jerseyNumber = '12';
+
 
